@@ -49,7 +49,7 @@ and monthly income, while the second plot shows a more detailed
 breakdown of education by secondary and post secondary educational
 attainment.
 
-![](Effect-of-Education-on-Monthly-Income_files/figure-gfm/HS%20diploma%20graph-1.png)<!-- -->
+![](HS diploma graph-1.png)<!-- -->
 
 As we expect, there is a noticeable trend that shows that earning a high
 school diploma typically results in a higher reported monthly income.
