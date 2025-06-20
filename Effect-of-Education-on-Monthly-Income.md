@@ -66,7 +66,7 @@ expect to see a lower amount of outliers if I expand the educational
 attainment variables to a more detailed level. Lets see what that plot
 looks like.
 
-![](Effect-of-Education-on-Monthly-Income_files/figure-gfm/detailed%20educational%20attainment%20graph-1.png)<!-- -->
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/detailed%20educational%20attainment%20graph-1.png)
 
 As expected, we see a similar trend, higher education showing a higher
 median monthly income amount. We also get a better sense of where our
@@ -87,12 +87,7 @@ as a function of schooling and experience. The parameters ρ, and β1, β2
 can be interpreted as the returns to schooling and experience,
 respectively.
 
-<figure>
-<img
-src="C:\Users\samue\Desktop\2023%20SIPP%20Project\SIPP%20Effects%20of%20Education%20on%20Income%20Project\mincer%20eq.png"
-alt="Formal Model" />
-<figcaption aria-hidden="true">Formal Model</figcaption>
-</figure>
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/mincer%20eq.PNG)
 
 One of the key attributes of this specific model is the quadratic
 function that captures “years of potential experience”. For this
@@ -105,7 +100,7 @@ will suffice.
 
     ## `geom_smooth()` using method = 'gam' and formula = 'y ~ s(x, bs = "cs")'
 
-![](Effect-of-Education-on-Monthly-Income_files/figure-gfm/age%20covariation%20graph-1.png)<!-- -->
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/age%20covariation%20graph-1.png)
 
 Age follows the diminishing returns described and captured by experience
 and experience^2 quite well (at least good enough for this analyst!). On
@@ -120,7 +115,7 @@ trend of slowly diminishing returns as a worker gains more experience in
 their role is modeled quite nicely by our age variable. This gives me
 confidence to use it as a main explanatory variable for our regression.
 
-![](Effect-of-Education-on-Monthly-Income_files/figure-gfm/race%20covariation%20graph-1.png)<!-- -->
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/race%20covariation%20graph-1.png)
 
 Grouping the survey responses into racial cohorts provides interesting
 insights as well. Visually we can see that the Asian group has the
@@ -135,7 +130,7 @@ categories. For now this will suffice. Overall, I expect that the race
 demographic variable will have a significant impact on the model as a
 control.
 
-![](Effect-of-Education-on-Monthly-Income_files/figure-gfm/gender%20covariation%20graph-1.png)<!-- -->
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/gender%20covariation%20graph-1.png)
 
 As expected, the median monthly income, when comparing across gender
 groups displays the commonly known economic characteristic that males in
@@ -410,7 +405,7 @@ visualization of said residuals generated from linear regression. I will
 not deviate from a tried and true methodology. The results are as
 follows.
 
-![](Effect-of-Education-on-Monthly-Income_files/figure-gfm/discussion%20section-1.png)<!-- -->
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/discussion%20section-1.png)
 
 After some initial manipulation including filtering and logarithmic
 operations, the income variable is normally distributed, at least
@@ -422,7 +417,7 @@ for our general assumptions for linear modeling.
 
 #### Residuals vs Fitted Values Plots
 
-<img src="Effect-of-Education-on-Monthly-Income_files/figure-gfm/residuals vs fitted-1.png" width="100%" />
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/residuals%20vs%20fitted-1.png)
 
 These two residuals vs. fitted plots help visualize any potential
 non-linear patterns within both models’ residuals. From my eye, there is
@@ -439,7 +434,7 @@ concerns of a biased estimator.
 
 #### Normal Q-Q Residuals Plots
 
-<img src="Effect-of-Education-on-Monthly-Income_files/figure-gfm/QQ residuals-1.png" width="100%" />
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/QQ%20residuals-1.png)
 
 While our residuals versus fitted values plot looks good, there are some
 serious concerns with the trends seen in both QQ plots for our chosen
@@ -469,7 +464,7 @@ captures educational attainment to a more detailed level.
 
 #### Scale-Location Plots
 
-<img src="Effect-of-Education-on-Monthly-Income_files/figure-gfm/scale-location-1.png" width="100%" />
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/scale-location-1.png)
 
 Our last robustness check will a test for homoscedasticity (constant
 variance of residuals). OLS regressions assume that the residuals
