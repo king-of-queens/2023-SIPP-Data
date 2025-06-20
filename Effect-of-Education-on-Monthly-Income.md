@@ -49,7 +49,7 @@ and monthly income, while the second plot shows a more detailed
 breakdown of education by secondary and post secondary educational
 attainment.
 
-![](HS diploma graph-1.png)<!-- -->
+![](https://github.com/king-of-queens/2023-SIPP-Data/blob/7b673716373e3c9a69aef375461e1a074a695a59/HS%20diploma%20graph-1.png)
 
 As we expect, there is a noticeable trend that shows that earning a high
 school diploma typically results in a higher reported monthly income.
